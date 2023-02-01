@@ -7,8 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.io.IOException;
-public class DriverManager {
+public class BrowserManager {
     public static WebDriver driver;
     public static void driverInit() throws IOException {
         if (ReadConfig.readConfigFile(ConfigConstant.BROWSERNAME).equalsIgnoreCase("chrome") ) {

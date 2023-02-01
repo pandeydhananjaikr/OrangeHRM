@@ -1,16 +1,18 @@
+import com.orangeHRM.Constants.ConfigConstant;
 import com.orangeHRM.DriverUtility.BrowserManager;
 import com.orangeHRM.Pages.*;
+import com.orangeHRM.Utilities.ReadConfig;
+import java.io.IOException;
 
-import static com.orangeHRM.DriverUtility.BrowserManager.driverQuit;
-import static com.orangeHRM.Pages.SignInPage.*;
+public class TestRunner extends BrowserManager {
+    public static void main(String[] args) throws InterruptedException, IOException {
 
-
-public class test extends BrowserManager{
-    public static void main(String[] args) throws InterruptedException {
-
-        driverInit("chrome");
+        driverInit();
         SignInPage signinpage = new SignInPage();
-        HomePage homepage = signinpage.enterUsername("Admin").enterPassword("admin123").clickLogin();
+        HomePage homepage = signinpage
+                .enterUsername(ReadConfig.readConfigFile(ConfigConstant.USERNAME))
+                .enterPassword(ReadConfig.readConfigFile(ConfigConstant.PASSWORD))
+                .clickLogin();
 
         homepage.selectPIM();
         PIM_Page pimpage = new PIM_Page();

@@ -1,2 +1,10 @@
-package com.orangeHRM.Constants;public enum ConfigConstant {
+package com.orangeHRM.Constants;
+
+public enum ConfigConstant {
+
+    URL,
+    BROWSERNAME,
+    USERNAME,
+    PASSWORD
+
 }
