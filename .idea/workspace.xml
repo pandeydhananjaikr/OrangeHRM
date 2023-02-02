@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f78f64-adbc-4d58-bd8c-c7d700a10bfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Constants/ConfigConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/DriverUtility/BrowserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/Leave_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/PIM_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/TimeSheetpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Utilities/ReadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/WaitFactory/WebDriverWaitManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Constants/ConfigConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Constants/ConfigConstant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
