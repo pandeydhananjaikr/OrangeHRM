@@ -26,7 +26,7 @@ public class BrowserManager {
         driver.get(ReadConfig.readConfigFile(ConfigConstant.URL));
     }
     public static void driverQuit() {
-        driver.quit();
+        driver.close();
     }
 
 
