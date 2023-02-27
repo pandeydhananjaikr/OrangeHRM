@@ -10,9 +10,9 @@ import java.time.Duration;
 
 public class HomePage {
 
-    By PIM_Locator = By.linkText("PIM");
-    By Leave_Locator = By.linkText("Leave");
-    By Time_Locator = By.linkText("Time");
+    private By PIM_Locator = By.linkText("PIM");
+    private By Leave_Locator = By.linkText("Leave");
+    private By Time_Locator = By.linkText("Time");
     WebDriverWait wait = new WebDriverWait(BrowserManager.driver, Duration.ofSeconds(20));
     public void selectPIM(){
         WebElement PimElement = wait.until(ExpectedConditions.elementToBeClickable(PIM_Locator));

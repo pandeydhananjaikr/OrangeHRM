@@ -15,7 +15,7 @@ public class WebDriverWaitManager {
         element.click();
     }
     public void elementLocated(By locator){
-      //  WebElement element = wait.until(ExpectedConditions.presenceOfNestedElementLocated(locator));
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
-//aa
+
 }

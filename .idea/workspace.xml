@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f78f64-adbc-4d58-bd8c-c7d700a10bfa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13f78f64-adbc-4d58-bd8c-c7d700a10bfa" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/src/test/java/count.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/DriverUtility/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/DriverUtility/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/PIM_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/PIM_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/WaitFactory/WebDriverWaitManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/WaitFactory/WebDriverWaitManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/home/dhananjai/IdeaProjects/AutomationFramework",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dhananjai/IdeaProjects/Cucumber101&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -58,9 +60,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestRunner">
+  <component name="RunManager" selected="Application.count">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <module name="AutomationFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="count" />
       <module name="AutomationFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,25 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test2.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test2" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.count" />
         <item itemvalue="Application.TestRunner" />
+        <item itemvalue="TestNG.C:/Users/Dhananjai/IdeaProjects/AutomationFramework/testng.xml" />
         <item itemvalue="TestNG.test2" />
         <item itemvalue="TestNG.test2 (2)" />
-        <item itemvalue="TestNG.C:/Users/Dhananjai/IdeaProjects/AutomationFramework/testng.xml" />
-        <item itemvalue="TestNG.test2.test" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669010969356</updated>
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1676225605584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225605584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutomationFramework$test2.ic" NAME="test2 Coverage Results" MODIFIED="1673950546033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
