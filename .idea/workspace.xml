@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="13f78f64-adbc-4d58-bd8c-c7d700a10bfa" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/DriverUtility/BrowserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/DriverUtility/BrowserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/TimeSheetpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Pages/TimeSheetpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Utilities/ReadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/Utilities/ReadConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/orangeHRM/WaitFactory/WebDriverWaitManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/orangeHRM/WaitFactory/WebDriverWaitManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/home/dhananjai/IdeaProjects/OrangeHRM",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dhana/IdeaProjects/OrangeHRM&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -58,8 +65,10 @@
   </component>
   <component name="RunManager" selected="Application.TestRunner">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
-      <module name="OrangeHRM" />
+      <module name="AutomationFramework" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -10,7 +10,6 @@ public class ReadConfig {
 
     public static String readConfigFile(ConfigConstant key) throws IOException {
         String value = "";
-
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/config.properties");
         prop.load(fis);

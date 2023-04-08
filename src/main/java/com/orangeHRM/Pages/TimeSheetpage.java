@@ -10,7 +10,7 @@ import java.time.Duration;
 import static com.orangeHRM.DriverUtility.BrowserManager.driver;
 
 public class TimeSheetpage {
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
     By empName = By.xpath("//label[text()=\"Employee Name\"]//..//../div[2]/div/div/input");
     By viewButton = By.linkText(" View ");
